@@ -3,6 +3,7 @@
   --font-white-ui: #ecf0f1;
   --main-bg-color: #2c3e50;
   --font-black-ui: #222831;
+  --font-blue-ui: #3282b8;
 
   /* font type variables */
   --font-family-title: 'Roboto Slab', serif;
@@ -21,6 +22,16 @@ body {
 .content-font {
   font-family: var(--font-family-content) !important;
   color: var(--font-black-ui) !important;
+}
+
+.info {
+  font-family: var(--font-family-content) !important;
+  color: var(--font-black-ui) !important;
+}
+
+.link {
+  color: var(--font-blue-ui) !important;
+  font-weight: 600 !important;
 }
 
 .white-font {

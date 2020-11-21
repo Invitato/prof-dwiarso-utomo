@@ -8,6 +8,15 @@ export const styWrapper = css`
     line-height: 20px;
   }
 
+  img {
+    max-width: 120px;
+  }
+
+  .notes {
+    font-size: 12px;
+    text-align: left;
+  }
+
   p {
     font-size: 16px;
     margin-top: 16px;
