@@ -30,7 +30,7 @@ export const DATA = [
     time: '09.35 – 09.40',
     desc: `
     Pengukuhan ditandai dengan Pengalungan Samir Tanda Guru Besar oleh Ketua Senat Universitas Dian Nuswantoro diwakili oleh Wakil Rektor I Prof. Dr. Supriyadi Rustad, M.Si. didampingi Dekan Fakultas Ekonomi dan Bisnis Prof. Vincent Didiek Wiet Aryanto, MBA., Ph.D. 
-    <br /> diiringi lagu Bagimu Negeri oleh PSM UDINUS 
+    <br /><br /> diiringi lagu Bagimu Negeri oleh PSM UDINUS 
     <br /> Hymne Universitas Dian Nuswantoro (PSM UDINUS)
     `,
   },

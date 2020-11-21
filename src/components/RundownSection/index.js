@@ -37,6 +37,7 @@ function HelloSection({ isInvitation }) {
                           fontWeight: 'normal',
                           color: 'var(--font-black-ui)',
                           fontSize: '14px',
+                          letterSpacing: 'normal',
                         }}
                         dangerouslySetInnerHTML={{ __html: i.desc }}
                       />
