@@ -6,7 +6,7 @@ import MainLayout from '@components/Layout';
 import WelcomeSection from '@components/WelcomeSection';
 import HelloSection from '@components/HelloSection';
 import RundownSection from '@components/RundownSection';
-import PhotoSection from '@components/PhotoSection/Loadable';
+import PhotoSection from '@components/PhotoSection';
 import FooterSection from '@components/FooterSection';
 
 function Home({ location }) {

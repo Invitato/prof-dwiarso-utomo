@@ -1,11 +1,11 @@
 import React from 'react';
-import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { photos } from './photo-data';
+
+import Photo from './assets/prof-4.jpg';
 
 function PhotoSection() {
   return (
-    <div id="fh5co-testimonial" className="fh5co-section-gray">
+    <div id="fh5co-testimonial" className="fh5co-section-gray text-center">
       <div className="container">
         <div className="row">
           <div className="row">
@@ -16,8 +16,12 @@ function PhotoSection() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-10 col-md-offset-1">
-              <ImageGallery items={photos} showBullets={false} />;
+            <div className="col-md-8 col-md-offset-2">
+              <img
+                style={{ maxWidth: '400px' }}
+                src={Photo}
+                alt="Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA."
+              />
             </div>
           </div>
         </div>
