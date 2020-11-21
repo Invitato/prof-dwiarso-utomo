@@ -5,8 +5,7 @@ import getQueryValue from '@helpers/getQueryValue';
 import MainLayout from '@components/Layout';
 import WelcomeSection from '@components/WelcomeSection';
 import HelloSection from '@components/HelloSection';
-import WeddingSection from '@components/WeddingSection';
-import LocationSection from '@components/LocationSection';
+import RundownSection from '@components/RundownSection';
 import PhotoSection from '@components/PhotoSection/Loadable';
 
 function Home({ location }) {
@@ -28,8 +27,7 @@ function Home({ location }) {
     return (
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
-        <WeddingSection isInvitation={isInvitation} />
-        <LocationSection />
+        <RundownSection isInvitation={isInvitation} />
         <PhotoSection />
       </Fragment>
     );

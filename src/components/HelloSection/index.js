@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { bool } from 'prop-types';
 
 import UDINUS_LOGO from '../WelcomeSection/img/udinus.png';
