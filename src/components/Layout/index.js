@@ -9,7 +9,7 @@ import '@assets/css/style.css';
 import './assets/custom-styles.css';
 
 const TITLE = `Pengukuhan dan Orasi Ilmiah: Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.`;
-const IMAGE_URL = `https://user-images.githubusercontent.com/10141928/98512914-a2b45500-2299-11eb-83fc-e92bd394a206.jpeg`;
+const IMAGE_URL = `https://user-images.githubusercontent.com/10141928/99877459-fbd49f00-2c30-11eb-9b19-0b36063b6ac3.jpg`;
 const META_DESCRIPTION = `REKTOR UNIVERSITAS DIAN NUSWANTORO Mengharap dengan hormat Bapak /Ibu / Saudara untuk menghadiri Sidang Senat Terbuka Universitas Dian Nuswantoro, dalam rangka : Pengukuhan dan Orasi Ilmiah : Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.`;
 
 function MainLayout({ children }) {

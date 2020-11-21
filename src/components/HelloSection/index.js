@@ -40,6 +40,15 @@ function HelloSection({ isInvitation }) {
               <br />
               Meeting ID: 881 7484 1488 <br />
               Passcode: 343088 <br />
+              Zoom Background:{' '}
+              <a
+                className="link"
+                href="https://user-images.githubusercontent.com/10141928/99877468-0858f780-2c31-11eb-85e6-63965ba4d87d.jpg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                (DOWNLOAD DISINI)
+              </a>
             </p>
             <p className="info">Atas perhatian dan kehadiran Bapak / Ibu / Saudara diucapkan terima kasih.</p>
             <p className="info">
