@@ -6,7 +6,7 @@ import g4 from './assets/prof-1.jpg';
 export const photos = [
   {
     original: g1,
-    thumbnail: g2,
+    thumbnail: g1,
   },
   {
     original: g2,
