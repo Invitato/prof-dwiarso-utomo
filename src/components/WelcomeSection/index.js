@@ -84,7 +84,7 @@ WelcomeSection.propTypes = {
 
 WelcomeSection.defaultProps = {
   codeLink: '',
-  guestName: 'Bapak/Ibuk/Saudara',
+  guestName: 'Bapak / Ibu / Saudara',
 };
 
 export default WelcomeSection;

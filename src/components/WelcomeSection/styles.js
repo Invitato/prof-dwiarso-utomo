@@ -200,7 +200,7 @@ export const styWrapper = css`
   .to-dearest-name {
     border-bottom: 1px solid;
     padding-bottom: 12px;
-    max-width: 250px;
+    max-width: 400px;
     margin: auto auto 30px auto;
   }
 
