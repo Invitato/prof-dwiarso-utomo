@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: `/novan-ultah`,
+  pathPrefix: `/prof-dwiarso-utomo`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-eslint',
