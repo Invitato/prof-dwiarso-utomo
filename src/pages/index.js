@@ -8,7 +8,6 @@ import HelloSection from '@components/HelloSection';
 import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
 import PhotoSection from '@components/PhotoSection/Loadable';
-import CovidSection from '@components/Covid19';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || 'Bapak/Ibuk/Saudara');
@@ -30,7 +29,6 @@ function Home({ location }) {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
         <LocationSection />
         <PhotoSection />
       </Fragment>
