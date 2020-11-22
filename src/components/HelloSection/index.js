@@ -23,10 +23,12 @@ const TIMELINE = [
   {
     title: 'Tempat',
     desc: `
-    (881 7484 1488) <a href="https://us02web.zoom.us/j/88174841488?pwd=YzhvVHlKdHlUNEFmTG01ZE1iWk1qUT09" ${{
-      ...LINK,
-    }}>LINK ZOOM</a>
+    Daring melalui Zoom <br /> <a href="https://us02web.zoom.us/j/88174841488?pwd=YzhvVHlKdHlUNEFmTG01ZE1iWk1qUT09">LINK ZOOM</a>
     `,
+  },
+  {
+    title: 'Meeting ID',
+    desc: '881 7484 1488',
   },
   {
     title: 'Passcode',
@@ -60,9 +62,10 @@ function HelloSection({ isInvitation }) {
               </p>
               <p className="info">
                 Mengharap dengan hormat Bapak /Ibu / Saudara untuk menghadiri Sidang Senat Terbuka Universitas Dian
-                Nuswantoro, dalam rangka: <br /> Pengukuhan dan Orasi Ilmiah:
+                Nuswantoro, dalam rangka
               </p>
               <p className="info">
+                <strong className="title-logo">Pengukuhan dan Orasi Ilmiah</strong> <br />
                 <strong style={{ fontSize: '1.5em' }}>Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.</strong>
                 <br />
                 <strong className="title-logo">Guru Besar Bidang Ilmu Akuntansi</strong>
@@ -74,16 +77,15 @@ function HelloSection({ isInvitation }) {
               <tbody>
                 {TIMELINE.map((i) => (
                   <tr>
-                    <td>
-                      <span className="text-table" style={{ marginRight: '4px' }}>
+                    <td style={{ verticalAlign: 'top' }}>
+                      <span className="text-table" style={{ marginRight: '8px' }}>
                         {i.title}
                       </span>
                     </td>
-                    <td style={{ width: '2px' }}>:</td>
-                    <td>
+                    <td style={{ verticalAlign: 'top' }}>
                       <span
                         className="text-table"
-                        style={{ fontWeight: 'bold', marginLeft: '4px' }}
+                        style={{ fontWeight: 'bold' }}
                         dangerouslySetInnerHTML={{ __html: i.desc }}
                       />
                     </td>
