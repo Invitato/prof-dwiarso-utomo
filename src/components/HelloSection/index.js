@@ -35,12 +35,6 @@ const TIMELINE = [
     desc: '343088',
   },
   {
-    title: 'Orasi Ilmiah',
-    desc: `
-    <a href="https://online.flippingbook.com/view/627680/">LINK ORASI</a>
-    `,
-  },
-  {
     title: 'Zoom Background',
     desc: ` <a href="https://user-images.githubusercontent.com/10141928/99877468-0858f780-2c31-11eb-85e6-63965ba4d87d.jpg" ${{
       ...LINK,
