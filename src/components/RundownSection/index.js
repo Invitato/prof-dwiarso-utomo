@@ -15,7 +15,7 @@ function HelloSection({ isInvitation }) {
               <strong>Pengukuhan dan Orasi Ilmiah</strong> <br />
               <strong style={{ fontSize: '1.4em' }}>Prof. Dr. St. Dwiarso Utomo, SE.,M.Kom., Akt., CA.</strong> <br />
               <strong>Guru Besar Bidang Ilmu Akuntansi</strong> <br />
-              <strong>Hari / Tanggal : 25 November 2020 </strong> <br />
+              <strong>Hari / Tanggal : Rabu, 25 November 2020 </strong> <br />
             </p>
 
             <hr />

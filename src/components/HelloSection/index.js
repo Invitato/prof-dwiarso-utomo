@@ -55,7 +55,7 @@ function HelloSection({ isInvitation }) {
                 <strong>REKTOR UNIVERSITAS DIAN NUSWANTORO</strong>
               </p>
               <p className="info">
-                Mengharap dengan hormat Bapak /Ibu / Saudara untuk menghadiri Sidang Senat Terbuka Universitas Dian
+                Mengharap dengan hormat Bapak/Ibu/Saudara/i untuk menghadiri Sidang Senat Terbuka Universitas Dian
                 Nuswantoro, dalam rangka
               </p>
               <p className="info">
@@ -89,7 +89,7 @@ function HelloSection({ isInvitation }) {
             </table>
 
             <div className="text-center">
-              <p className="info">Atas perhatian dan kehadiran Bapak / Ibu / Saudara diucapkan terima kasih.</p>
+              <p className="info">Atas perhatian dan kehadiran Bapak/Ibu/Saudara/i diucapkan terima kasih.</p>
               <p className="info">
                 Semarang, 15 November 2020 <br />
                 Rektor, <br /> <strong>Prof. Dr. Ir. Edi Noersasongko, M.Kom.</strong>
@@ -101,7 +101,7 @@ function HelloSection({ isInvitation }) {
             <p className="notes">Catatan :</p>
             <ol className="notes">
               <li>
-                Mohon Senat Universitas Dian Nuswantoro dan Senat Tamu dapat mengenakan Toga, dan untuk tamu undangan
+                Mohon Senat Universitas Dian Nuswantoro dan Senat Kehormatan dapat mengenakan Toga, dan untuk tamu undangan
                 lain dapat menyesuaikan.
               </li>
               <li>

@@ -52,8 +52,14 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
           <div className="row" css={styWrapper}>
             <div className="col-md-10 col-md-offset-1 text-center">
               <img src={LogoUdinus} alt="udinus logo" />
-              <h4 className="sub-title">SIDANG SENAT TERBUKA UNIVERSITAS DIAN NUSWANTORO</h4>
-              <h4 className="sub-title">PENGUKUHAN DAN ORASI ILMIAH</h4>
+              <div style={{ margin: '0 0 24px 0' }}>
+                <h4 className="sub-title">SIDANG SENAT TERBUKA</h4>
+                <h4 className="sub-title">UNIVERSITAS DIAN NUSWANTORO</h4>
+                <h4 className="sub-title">SEMARANG</h4>
+              </div>
+              <h4 className="sub-title" style={{ marginBottom: '-16px' }}>
+                PENGUKUHAN DAN ORASI ILMIAH
+              </h4>
               <h1 className="title">{PROF_NAME_CAPITAL}</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
