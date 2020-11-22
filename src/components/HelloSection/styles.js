@@ -22,10 +22,27 @@ export const styWrapper = css`
     margin-top: 16px;
   }
 
+  .text-table {
+    text-transform: unset;
+    font-weight: normal;
+    color: var(--font-black-ui);
+    font-size: 14px;
+    letter-spacing: normal;
+
+    a {
+      color: var(--font-blue-ui) !important;
+      font-weight: 600 !important;
+    }
+  }
+
   @media screen and (max-width: 500px) {
     .sub-title {
       font-size: 18px;
       margin: 0 0 8px 0;
+    }
+
+    .title-logo {
+      font-size: 1.1em;
     }
 
     p {
