@@ -128,6 +128,7 @@ export const styBackground = css`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
 
   .title {
     font-size: 2.5em;
